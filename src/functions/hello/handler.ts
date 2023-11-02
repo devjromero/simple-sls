@@ -6,7 +6,7 @@ import schema from './schema';
 
 const hello: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
   return formatJSONResponse({
-    message: `Hello ${event.body.name}, welcome :)s`,
+    message: `dHello ${event.body.name}, welcome :)s`,
     event,
   });
 };
